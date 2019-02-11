@@ -32,7 +32,7 @@ This implementation is just for [sms10000](http://sms1000.ir/).
 
 ```
 
-3.finally, add credential to your `.env` file
+3.Add credential to your `.env` file
 
 ```text
 SMS1000_USER=
@@ -40,7 +40,7 @@ SMS1000_PASSWORD=
 SMS1000_FROM=
 ```
 
-4. configure the Notifiable. you need to specify `routeNotificationForSms` function at your Notifiable method
+4. finally, configure the Notifiable. you need to specify `routeNotificationForSms` function at your Notifiable model
 ```php
  /**
      * Route notification for sms

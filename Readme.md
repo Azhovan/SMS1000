@@ -2,6 +2,16 @@
 This implementation is just for [sms10000](http://sms1000.ir/).
 
 ## How to install 
+download it with composer 
+like : `composer require azhovan/sms1000` 
+Or
+```php
+{
+      "require": {
+        "azhovan/sms1000": "^0.1"
+    }
+}
+```
 
 1. Add to service provider list (`config/app.php`)
 
